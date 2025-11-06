@@ -1,0 +1,47 @@
+.Playlist {
+  background-color: #181818;
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #282828;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.Playlist-input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border: 2px solid #282828;
+  border-radius: 8px;
+  background-color: #282828;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.Playlist-input:focus {
+  border-color: #1DB954;
+}
+
+.Playlist-save {
+  background-color: #1DB954;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.Playlist-save:hover {
+  background-color: #1ed760;
+  transform: translateY(-2px);
+}
